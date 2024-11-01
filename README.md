@@ -18,6 +18,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Docker
-        uses: bigmikesolutions/install-docker-action@v1
+        uses: bigmikesolutions/gh-actions-docker-setup@v1
         with:
           docker_version: "20.10.7"  # Optional: specify a version
